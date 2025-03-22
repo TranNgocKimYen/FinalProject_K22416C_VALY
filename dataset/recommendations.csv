@@ -1,0 +1,11 @@
+business_id,name,categories,bs_rating,location
+159,"""Blues City Deli""","""Delis, Bars, Restaurants, Nightlife, Pubs, American (Traditional), Sandwiches""",5.0,"""State:MO, City:Saint Louis, Address:2438 McNair Ave """
+2142,"""Cajun Kate's""","""Food, Restaurants, Cajun/Creole""",5.0,"""State:PA, City:Boothwyn, Address:1362 Naamans Creek Rd """
+402,"""Harry's Blue Bell Taproom""","""Nightlife, Bars, American (Traditional), Salad, Beer Bar, American (New), Restaurants""",4.5,"""State:PA, City:Blue Bell, Address:736 Dekalb Pike """
+424,"""SPOT Gourmet Burgers""","""Restaurants, Food, Cheesesteaks, Food Trucks, Burgers""",4.5,"""State:PA, City:Philadelphia, Address:2821 W Girard Ave """
+619,"""The Cuban Sandwich Shop""","""Food, Restaurants, Cuban, Coffee & Tea, Cafes, Sandwiches""",4.5,"""State:IN, City:Indianapolis, Address:8329 Michigan Rd """
+1099,"""swah-rey""","""Wine Bars, Food, Cupcakes, Nightlife, Bars, Patisserie/Cake Shop, Bakeries, Cafes, Comfort Food, American (New), Restaurants, Beer, Wine & Spirits, Coffee & Tea, Desserts""",4.5,"""State:FL, City:St Petersburg, Address:2105 Central Avenue """
+1511,"""Yoichi's""","""Restaurants, Nightlife, Japanese, Bars""",4.5,"""State:CA, City:Santa Barbara, Address:230 E Victoria St """
+2398,"""Sabrina's West Street Kitchen""","""Sandwiches, American (New), Restaurants, Salad, Soup, Tacos, Mexican""",4.5,"""State:NV, City:Reno, Address:138 West St """
+2755,"""Fiamme Pizza""","""Italian, Restaurants, Food Stands, Farmers Market, Food Trucks, Caterers, Pizza, Event Planning & Services, Food""",4.5,"""State:AZ, City:Tucson, Address:4706 E Sunrise Dr """
+1809,"""Uncle Maddios Pizza""","""Restaurants, Salad, Pizza, Gluten-Free""",4.0,"""State:FL, City:Lutz, Address:3949 Van Dyke Rd """

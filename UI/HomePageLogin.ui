@@ -1,0 +1,3374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1497</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget_2" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-1</y>
+      <width>1511</width>
+      <height>930</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="labelBackground">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>-51</y>
+       <width>1500</width>
+       <height>961</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../Images/background.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widgetBGMain" native="true">
+     <property name="geometry">
+      <rect>
+       <x>-10</x>
+       <y>90</y>
+       <width>1511</width>
+       <height>811</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: RGBA(0,0,0,100)</string>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_4">
+      <item>
+       <widget class="QScrollArea" name="scrollArea">
+        <property name="styleSheet">
+         <string notr="true">background-color: transparent;
+border:none</string>
+        </property>
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>-561</y>
+           <width>1476</width>
+           <height>3250</height>
+          </rect>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>3250</height>
+          </size>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QFrame" name="frameMain">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QWidget" name="widget" native="true">
+             <property name="geometry">
+              <rect>
+               <x>-10</x>
+               <y>-20</y>
+               <width>1591</width>
+               <height>3261</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: transparent</string>
+             </property>
+             <widget class="QFrame" name="frameResult">
+              <property name="geometry">
+               <rect>
+                <x>180</x>
+                <y>180</y>
+                <width>1111</width>
+                <height>2971</height>
+               </rect>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::StyledPanel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Raised</enum>
+              </property>
+              <layout class="QVBoxLayout" name="verticalLayout_6">
+               <property name="spacing">
+                <number>15</number>
+               </property>
+               <item>
+                <widget class="QFrame" name="frameResult1">
+                 <property name="styleSheet">
+                  <string notr="true">QFrame {
+    background-color: rgba(0, 0, 0, 200);
+    border-radius: 10px;
+}
+
+QFrame:hover {
+    background-color: rgba(0,0,0,100);
+}
+</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <widget class="QLabel" name="labelRate1">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>220</y>
+                    <width>211</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelFigure1">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>15</y>
+                    <width>250</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Sitka Text</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+border-radius: 10px;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocation1">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>80</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelCategories1">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>150</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelRateIcon1">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>225</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>30</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 30pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>★</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelMessage1">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>160</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Arial</family>
+                    <pointsize>23</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+COLOR: rgb(255, 255, 255)</string>
+                  </property>
+                  <property name="text">
+                   <string>💬</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocationIcon1">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>90</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Arial</family>
+                    <pointsize>23</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string>🌍</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelName1">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>10</y>
+                    <width>751</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 18pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEditRating1">
+                  <property name="geometry">
+                   <rect>
+                    <x>910</x>
+                    <y>220</y>
+                    <width>161</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+    background-color:rgb(247, 247, 247);
+color:rgb(0, 0, 0);
+    border-radius: 10px;text-align: center;
+ 
+	font: 75 18pt &quot;Georgia&quot;;
+}
+
+QLineEdit:hover{
+    background-color: rgb(229, 229, 229) };</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="placeholderText">
+                   <string>Enter here</string>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="frameResult2">
+                 <property name="styleSheet">
+                  <string notr="true">QFrame {
+    background-color: rgba(0, 0, 0, 200);
+    border-radius: 10px;
+}
+
+QFrame:hover {
+    background-color: rgba(0,0,0,150);
+}
+</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <widget class="QLabel" name="labelRate2">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>220</y>
+                    <width>211</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelFigure2">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>15</y>
+                    <width>250</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Sitka Text</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+border-radius: 10px;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocation2">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>80</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelCategories2">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>150</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelRateIcon2">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>225</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>30</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 30pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>★</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelMessage2">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>160</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>💬</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocationIcon2">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>90</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>🌍</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelName2">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>10</y>
+                    <width>801</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 18pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEditRating2">
+                  <property name="geometry">
+                   <rect>
+                    <x>910</x>
+                    <y>220</y>
+                    <width>161</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+    background-color:rgb(247, 247, 247);
+color:rgb(0, 0, 0);
+    border-radius: 10px;text-align: center;
+ 
+	font: 75 18pt &quot;Georgia&quot;;
+}
+
+QLineEdit:hover{
+    background-color: rgb(229, 229, 229) };</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="placeholderText">
+                   <string>Enter here</string>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="frameResult3">
+                 <property name="styleSheet">
+                  <string notr="true">QFrame {
+    background-color: rgba(0, 0, 0, 200);
+    border-radius: 10px;
+}
+
+QFrame:hover {
+    background-color: rgba(0,0,0,150);
+}
+</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <widget class="QLabel" name="labelRate3">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>220</y>
+                    <width>211</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelFigure3">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>15</y>
+                    <width>250</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Sitka Text</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+border-radius: 10px;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocation3">
+                  <property name="geometry">
+                   <rect>
+                    <x>320</x>
+                    <y>90</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelCategories3">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>150</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelRateIcon3">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>225</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>30</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 30pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>★</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelMessage3">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>160</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>💬</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocationIcon3">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>90</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>🌍</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelName3">
+                  <property name="geometry">
+                   <rect>
+                    <x>270</x>
+                    <y>20</y>
+                    <width>801</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 18pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEditRating3">
+                  <property name="geometry">
+                   <rect>
+                    <x>910</x>
+                    <y>220</y>
+                    <width>161</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+    background-color:rgb(247, 247, 247);
+color:rgb(0, 0, 0);
+    border-radius: 10px;text-align: center;
+ 
+	font: 75 18pt &quot;Georgia&quot;;
+}
+
+QLineEdit:hover{
+    background-color: rgb(229, 229, 229) };</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="placeholderText">
+                   <string>Enter here</string>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="frameResult4">
+                 <property name="styleSheet">
+                  <string notr="true">QFrame {
+    background-color: rgba(0, 0, 0, 200);
+    border-radius: 10px;
+}
+
+QFrame:hover {
+    background-color: rgba(0,0,0,150);
+}
+</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <widget class="QLabel" name="labelRate4">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>220</y>
+                    <width>211</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelFigure4">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>15</y>
+                    <width>250</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Sitka Text</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+border-radius: 10px;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocation4">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>80</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelCategories4">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>150</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelRateIcon4">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>225</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>30</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 30pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>★</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelMessage4">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>160</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>💬</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocationIcon4">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>90</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>🌍</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelName4">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>10</y>
+                    <width>801</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 18pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEditRating4">
+                  <property name="geometry">
+                   <rect>
+                    <x>910</x>
+                    <y>220</y>
+                    <width>161</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+    background-color:rgb(247, 247, 247);
+color:rgb(0, 0, 0);
+    border-radius: 10px;text-align: center;
+ 
+	font: 75 18pt &quot;Georgia&quot;;
+}
+
+QLineEdit:hover{
+    background-color: rgb(229, 229, 229) };</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="placeholderText">
+                   <string>Enter here</string>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="frameResult5">
+                 <property name="styleSheet">
+                  <string notr="true">QFrame {
+    background-color: rgba(0, 0, 0, 200);
+    border-radius: 10px;
+}
+
+QFrame:hover {
+    background-color: rgba(0,0,0,150);
+}
+</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <widget class="QLabel" name="labelRate5">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>220</y>
+                    <width>211</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelFigure5">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>15</y>
+                    <width>250</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Sitka Text</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+border-radius: 10px;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocation5">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>80</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelCategories5">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>150</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelRateIcon5">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>225</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>30</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 30pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>★</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelMessage5">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>160</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>💬</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocationIcon5">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>90</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>🌍</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelName5">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>10</y>
+                    <width>801</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 18pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEditRating5">
+                  <property name="geometry">
+                   <rect>
+                    <x>910</x>
+                    <y>220</y>
+                    <width>161</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+    background-color:rgb(247, 247, 247);
+color:rgb(0, 0, 0);
+    border-radius: 10px;text-align: center;
+ 
+	font: 75 18pt &quot;Georgia&quot;;
+}
+
+QLineEdit:hover{
+    background-color: rgb(229, 229, 229) };</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="placeholderText">
+                   <string>Enter here</string>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="frameResult6">
+                 <property name="styleSheet">
+                  <string notr="true">QFrame {
+    background-color: rgba(0, 0, 0, 200);
+    border-radius: 10px;
+}
+
+QFrame:hover {
+    background-color: rgba(0,0,0,150);
+}
+</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <widget class="QLabel" name="labelRate6">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>220</y>
+                    <width>211</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelFigure6">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>15</y>
+                    <width>250</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Sitka Text</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+border-radius: 10px;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocation6">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>80</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelCategories6">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>150</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelRateIcon6">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>225</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>30</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 30pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>★</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelMessage6">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>160</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>💬</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocationIcon6">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>90</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>🌍</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelName6">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>10</y>
+                    <width>801</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 18pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEditRating6">
+                  <property name="geometry">
+                   <rect>
+                    <x>910</x>
+                    <y>220</y>
+                    <width>161</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+    background-color:rgb(247, 247, 247);
+color:rgb(0, 0, 0);
+    border-radius: 10px;text-align: center;
+ 
+	font: 75 18pt &quot;Georgia&quot;;
+}
+
+QLineEdit:hover{
+    background-color: rgb(229, 229, 229) };</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="placeholderText">
+                   <string>Enter here</string>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="frameResult7">
+                 <property name="styleSheet">
+                  <string notr="true">QFrame {
+    background-color: rgba(0, 0, 0, 200);
+    border-radius: 10px;
+}
+
+QFrame:hover {
+    background-color: rgba(0,0,0,150);
+}
+</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <widget class="QLabel" name="labelRate7">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>220</y>
+                    <width>211</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelFigure7">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>15</y>
+                    <width>250</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Sitka Text</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+border-radius: 10px;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocation7">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>80</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelCategories7">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>150</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelRateIcon7">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>225</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>30</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 30pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>★</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelMessage7">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>160</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>💬</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocationIcon7">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>90</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>🌍</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelName7">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>10</y>
+                    <width>801</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 18pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEditRating7">
+                  <property name="geometry">
+                   <rect>
+                    <x>910</x>
+                    <y>220</y>
+                    <width>161</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+    background-color:rgb(247, 247, 247);
+color:rgb(0, 0, 0);
+    border-radius: 10px;text-align: center;
+ 
+	font: 75 18pt &quot;Georgia&quot;;
+}
+
+QLineEdit:hover{
+    background-color: rgb(229, 229, 229) };</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="placeholderText">
+                   <string>Enter here</string>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="frameResult8">
+                 <property name="styleSheet">
+                  <string notr="true">QFrame {
+    background-color: rgba(0, 0, 0, 200);
+    border-radius: 10px;
+}
+
+QFrame:hover {
+    background-color: rgba(0,0,0,150);
+}
+</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <widget class="QLabel" name="labelRate8">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>220</y>
+                    <width>211</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelFigure8">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>15</y>
+                    <width>250</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Sitka Text</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+border-radius: 10px;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocation8">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>80</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelCategories8">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>150</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelRateIcon8">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>225</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>30</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 30pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>★</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelMessage8">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>160</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>💬</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocationIcon8">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>90</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>🌍</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelName8">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>10</y>
+                    <width>801</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 18pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEditRating8">
+                  <property name="geometry">
+                   <rect>
+                    <x>910</x>
+                    <y>220</y>
+                    <width>161</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+    background-color:rgb(247, 247, 247);
+color:rgb(0, 0, 0);
+    border-radius: 10px;text-align: center;
+ 
+	font: 75 18pt &quot;Georgia&quot;;
+}
+
+QLineEdit:hover{
+    background-color: rgb(229, 229, 229) };</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="placeholderText">
+                   <string>Enter here</string>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="frameResult9">
+                 <property name="styleSheet">
+                  <string notr="true">QFrame {
+    background-color: rgba(0, 0, 0, 200);
+    border-radius: 10px;
+}
+
+QFrame:hover {
+    background-color: rgba(0,0,0,150);
+}
+</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <widget class="QLabel" name="labelRate9">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>220</y>
+                    <width>211</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelFigure9">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>15</y>
+                    <width>250</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Sitka Text</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+border-radius: 10px;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocation9">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>80</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelCategories9">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>150</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelRateIcon9">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>225</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>30</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 30pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>★</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelMessage9">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>160</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>💬</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocationIcon9">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>90</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>🌍</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelName9">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>10</y>
+                    <width>801</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 18pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEditRating9">
+                  <property name="geometry">
+                   <rect>
+                    <x>910</x>
+                    <y>220</y>
+                    <width>161</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+    background-color:rgb(247, 247, 247);
+color:rgb(0, 0, 0);
+    border-radius: 10px;text-align: center;
+ 
+	font: 75 18pt &quot;Georgia&quot;;
+}
+
+QLineEdit:hover{
+    background-color: rgb(229, 229, 229) };</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="placeholderText">
+                   <string>Enter here</string>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+               <item>
+                <widget class="QFrame" name="frameResult10">
+                 <property name="styleSheet">
+                  <string notr="true">QFrame {
+    background-color: rgba(0, 0, 0, 200);
+    border-radius: 10px;
+}
+
+QFrame:hover {
+    background-color: rgba(0,0,0,150);
+}
+</string>
+                 </property>
+                 <property name="frameShape">
+                  <enum>QFrame::StyledPanel</enum>
+                 </property>
+                 <property name="frameShadow">
+                  <enum>QFrame::Raised</enum>
+                 </property>
+                 <widget class="QLabel" name="labelRate10">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>220</y>
+                    <width>211</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelFigure10">
+                  <property name="geometry">
+                   <rect>
+                    <x>10</x>
+                    <y>15</y>
+                    <width>250</width>
+                    <height>251</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Sitka Text</family>
+                    <pointsize>10</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+border-radius: 10px;</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocation10">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>80</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelCategories10">
+                  <property name="geometry">
+                   <rect>
+                    <x>330</x>
+                    <y>150</y>
+                    <width>751</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>14</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 14pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelRateIcon10">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>225</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>30</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 30pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>★</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelMessage10">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>160</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>💬</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelLocationIcon10">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>90</y>
+                    <width>41</width>
+                    <height>41</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>MS Shell Dlg 2</family>
+                    <pointsize>23</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">font: 23pt &quot;MS Shell Dlg 2&quot;;
+COLOR:rgb(255, 255, 255); background-color: transparent</string>
+                  </property>
+                  <property name="text">
+                   <string>🌍</string>
+                  </property>
+                  <property name="scaledContents">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                 <widget class="QLabel" name="labelName10">
+                  <property name="geometry">
+                   <rect>
+                    <x>280</x>
+                    <y>10</y>
+                    <width>801</width>
+                    <height>61</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: transparent;
+font: 75 18pt &quot;Georgia&quot;;
+COLOR: rgb(255, 255, 255);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                 <widget class="QLineEdit" name="lineEditRating10">
+                  <property name="geometry">
+                   <rect>
+                    <x>910</x>
+                    <y>220</y>
+                    <width>161</width>
+                    <height>51</height>
+                   </rect>
+                  </property>
+                  <property name="font">
+                   <font>
+                    <family>Georgia</family>
+                    <pointsize>18</pointsize>
+                    <weight>9</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QLineEdit {
+    background-color:rgb(247, 247, 247);
+color:rgb(0, 0, 0);
+    border-radius: 10px;text-align: center;
+ 
+	font: 75 18pt &quot;Georgia&quot;;
+}
+
+QLineEdit:hover{
+    background-color: rgb(229, 229, 229) };</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                  <property name="placeholderText">
+                   <string>Enter here</string>
+                  </property>
+                 </widget>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+             <widget class="QLabel" name="labelSponsoredResult">
+              <property name="geometry">
+               <rect>
+                <x>130</x>
+                <y>120</y>
+                <width>281</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>24</pointsize>
+                <weight>75</weight>
+                <italic>false</italic>
+                <bold>true</bold>
+                <stylestrategy>PreferDefault</stylestrategy>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">COLOR: rgb(255, 255, 255)</string>
+              </property>
+              <property name="text">
+               <string>Sponsored results</string>
+              </property>
+             </widget>
+             <widget class="QLabel" name="labelTitle">
+              <property name="geometry">
+               <rect>
+                <x>400</x>
+                <y>40</y>
+                <width>731</width>
+                <height>71</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>30</pointsize>
+                <weight>75</weight>
+                <italic>false</italic>
+                <bold>true</bold>
+                <stylestrategy>PreferDefault</stylestrategy>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">COLOR: rgb(255, 255, 255)
+</string>
+              </property>
+              <property name="text">
+               <string>Rate to get recommendations, or Skip!</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pushButtonSkip">
+              <property name="geometry">
+               <rect>
+                <x>1160</x>
+                <y>50</y>
+                <width>191</width>
+                <height>61</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Georgia</family>
+                <pointsize>20</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">
+QPushButton {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QPushButton:hover{
+    background-color: rgba(231, 230, 230, 252); 
+    color: black;
+};
+
+</string>
+              </property>
+              <property name="text">
+               <string>Skip</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pushButtonRecommend">
+              <property name="geometry">
+               <rect>
+                <x>740</x>
+                <y>3170</y>
+                <width>251</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>20</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    background-color: rgb(0, 0, 0);
+color:rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QPushButton:hover{
+    background-color: rgb(167, 167, 167); };
+font: 75 14pt &quot;Georgia&quot;;
+</string>
+              </property>
+              <property name="text">
+               <string>Recommend</string>
+              </property>
+             </widget>
+             <widget class="QPushButton" name="pushButtonSubmit">
+              <property name="geometry">
+               <rect>
+                <x>480</x>
+                <y>3170</y>
+                <width>251</width>
+                <height>51</height>
+               </rect>
+              </property>
+              <property name="font">
+               <font>
+                <family>Times New Roman</family>
+                <pointsize>20</pointsize>
+                <weight>75</weight>
+                <bold>true</bold>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    background-color: rgb(0, 0, 0);
+color:rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QPushButton:hover{
+    background-color: rgb(167, 167, 167); };
+</string>
+              </property>
+              <property name="text">
+               <string>Submit</string>
+              </property>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QWidget" name="TitleBar" native="true">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1500</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(0,0,0,150);
+</string>
+     </property>
+     <widget class="QLineEdit" name="lineEditSearch">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>20</y>
+        <width>601</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Times New Roman</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="whatsThis">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">COLOR: rgb(255, 255, 255);
+background-color: rgba(0,0,0,180);
+
+border-radius: 30px;
+padding-left: 20px;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>Search for the restaurant...</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonSearch">
+      <property name="geometry">
+       <rect>
+        <x>880</x>
+        <y>30</y>
+        <width>41</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QPushButton:hover{
+    background-color: rgb(71, 71, 71); 
+};
+
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../Images/ic_search.png</normaloff>../Images/ic_search.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonWriteReview">
+      <property name="geometry">
+       <rect>
+        <x>1110</x>
+        <y>20</y>
+        <width>221</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Georgia</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px;
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+    background-color: rgb(71, 71, 71); 
+};
+
+</string>
+      </property>
+      <property name="text">
+       <string>Write a review</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonLogOut">
+      <property name="geometry">
+       <rect>
+        <x>1350</x>
+        <y>20</y>
+        <width>140</width>
+        <height>60</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Georgia</family>
+        <pointsize>14</pointsize>
+        <weight>75</weight>
+        <italic>false</italic>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+QPushButton:hover{
+    background-color: rgba(231, 230, 230, 252); 
+    color: black;
+};
+
+</string>
+      </property>
+      <property name="text">
+       <string>Log Out</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonWritePrevious">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>25</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>VNI-Souvir</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+
+QPushButton {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px;
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+    background-color: rgb(71, 71, 71); 
+};
+background-color: transparent;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../Images/ic_left.png</normaloff>../Images/ic_left.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButtonWriteNext">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>25</y>
+        <width>51</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>VNI-Souvir</family>
+        <pointsize>12</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QPushButton {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 5px;
+	color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+    background-color: rgb(71, 71, 71); 
+};
+background-color: transparent;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>../Images/ic_right.png</normaloff>../Images/ic_right.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="labelValy">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>0</y>
+        <width>180</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>VNI-Ariston</family>
+        <pointsize>28</pointsize>
+        <weight>9</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: transparent;
+color: rgb(255, 255, 255);font: 75 28pt &quot;VNI-Ariston&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Valy</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../Images/background.qrc"/>
+  <include location="../Images/background.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="background">
+    <file>Valy (3).png</file>
+    <file>background3.jpg</file>
+    <file>backgroundlogin.jpg</file>
+    <file>backgroundlogin.jpg</file>
+    <file>backgroundlogin.jpg</file>
+    <file>loginbe.jpg</file>
+    <file>loginbe.jpg</file>
+    <file>loginbe.jpg</file>
+    <file>Valy (1).png</file>
+    <file>whitebackground.png</file>
+    <file>background.jpg</file>
+    <file>homepage.jpg</file>
+  </qresource>
+  <qresource prefix="logo">
+    <file>ic_arrowleft.png</file>
+    <file>ic_arrowright.png</file>
+    <file>RecaptchaLogo.svg.png</file>
+    <file>Valy (4).png</file>
+    <file>Valy (1).png</file>
+    <file>backgroundhomepage.jpg</file>
+    <file>Valy (2).png</file>
+  </qresource>
+</RCC>

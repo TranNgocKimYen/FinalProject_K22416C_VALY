@@ -1,0 +1,11 @@
+business_id,name,categories,bs_rating,location
+423,"""Santana's Bakery & Cafe""","""Breakfast & Brunch, Bakeries, Food, Cafes, Sandwiches, Restaurants""",5.0,"""State:NJ, City:Camden, Address:3205 River Rd """
+5095,"""Roundabout Catering""","""Caterers, Party Equipment Rentals, Food, Venues & Event Spaces, Event Planning & Services, Restaurants, Food Delivery Services""",5.0,"""State:NV, City:Sparks, Address:631 Dunn Cir """
+6379,"""Two Goats""","""Personal Chefs, Food, American (New), Caterers, Event Planning & Services, Pop-Up Restaurants, Restaurants, Food Trucks""",5.0,"""State:TN, City:Nashville, Address:4611 Alabama Ave """
+7277,"""Latin Twist""","""Latin American, Restaurants, Caribbean, Food, Food Trucks""",5.0,"""State:ID, City:Boise, Address:Beacon St & Boise Ave """
+7894,"""Jessi's Flaming Fruit Sauce""","""Food Stands, Restaurants, Food Trucks, Specialty Food, Food""",5.0,"""State:FL, City:Tampa, Address:Not-Available """
+9951,"""Soho Japanese Restaurant""","""Japanese, Noodles, Restaurants, Sushi Bars""",5.0,"""State:PA, City:Levittown, Address:8800 New Falls Rd """
+958,"""Hackett's Causeway Cafe and Creamery""","""Restaurants, Coffee & Tea, Pizza, Food, Ice Cream & Frozen Yogurt""",4.5,"""State:FL, City:Dunedin, Address:901 Curlew Rd """
+4735,"""Five Guys Burgers and Fries""","""Fast Food, Restaurants, Food, Burgers, American (New)""",4.5,"""State:PA, City:Glen Mills, Address:1810 Wilmington Pike """
+9616,"""Stanley Service Bar""","""Nightlife, Cocktail Bars, Sandwiches, Food, Coffee & Tea, Bars, Restaurants""",4.5,"""State:LA, City:New Orleans, Address:543 St Ann St """
+656,"""Pub & Kitchen""","""Restaurants, Pubs, Food, Bars, American (New), Nightlife""",3.5,"""State:PA, City:Philadelphia, Address:1946 Lombard St """
